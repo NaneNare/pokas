@@ -15,5 +15,14 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:textSize="36dp"
+        android:id="@+id/pokas_text"
         android:text="Hello Pokas !" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Login"
+        android:layout_margin="15dp"
+        android:layout_below="@id/pokas_text"
+        android:onClick="startLogin"/>
 </RelativeLayout>
