@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Pokas</string>
+    <string name="story">Story</string>
+    <string name="the_first_part_of_aphorism">Add the first part of current aphorism</string>
+    <string name="the_second_part_of_aphorism">Add the second part of current aphorism</string>
+    <string name="add_mind_menu">Add your mind and become one of Phocas\'s apostles!</string>
+    <string name="add_story">Add a story</string>
+    <string name="add_mind_hint">Let\'s write!!!!</string>
 </resources>
