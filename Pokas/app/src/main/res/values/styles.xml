@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<resources
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:fab="http://schemas.android.com/apk/res-auto">
+<resources>
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -47,5 +44,10 @@
         <item name="fab:menu_showShadow">true</item>
     </style>
 
+    <style name="FabButtonStyle">
+        <item name="fab:fab_size">mini</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
 
 </resources>

@@ -12,26 +12,23 @@
         fab:menu_icon="@drawable/fab_add">
 
         <com.github.clans.fab.FloatingActionButton
+            style="@style/FabButtonStyle"
             android:id="@+id/add_aphorism_first_part_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:src="@mipmap/ic_add_aphorism_first_part"
             fab:fab_label="@string/the_first_part_of_aphorism"
-            fab:fab_size="mini" />
+            />
 
         <com.github.clans.fab.FloatingActionButton
+            style="@style/FabButtonStyle"
             android:id="@+id/add_story_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:src="@mipmap/ic_add_story"
             fab:fab_label="@string/add_story"
-            fab:fab_size="mini" />
+             />
         <com.github.clans.fab.FloatingActionButton
+            style="@style/FabButtonStyle"
             android:id="@+id/add_aphorism_second_part_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:src="@mipmap/ic_add_aphorism_second_part"
             fab:fab_label="@string/the_second_part_of_aphorism"
-            fab:fab_size="mini" />
+            />
     </com.github.clans.fab.FloatingActionMenu>
 </RelativeLayout>
